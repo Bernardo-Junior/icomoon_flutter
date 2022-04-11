@@ -1,0 +1,8 @@
+targets:
+  $default:
+    builders:
+      icomoon_selection_gen:
+        generate_for:
+          - lib/assets/icons/selection.json
+        options:
+          font_name: Icomoon # same as the `family` prop in pubspec.yaml
